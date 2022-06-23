@@ -1,4 +1,3 @@
-from os import getenv
 from flask import Flask, render_template, request
 from .predict import predict_user
 from .models import DB, User, Tweet
